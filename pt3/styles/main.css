@@ -1,0 +1,76 @@
+body{
+	font-family: sans-serif;
+	background-color: white;
+	border: 3px solid black;
+	width: 800px;
+	box-shadow:10px 10px 5px black,-10px 10px 5px black;
+	background-position:center;
+    margin:auto;
+}
+html{
+	background-image: url("../images/bats.gif");
+	background-repeat: repeat;	
+}
+main{
+	
+	padding: 10px 125px 20px 30px;
+}
+
+header{
+	border-bottom-style:solid;
+	background:linear-gradient(45deg,white,orange 75%,black);
+    height:90px;
+ 	
+}
+
+h2{
+	font-size:140%;
+	height:20px;
+}
+h3{
+	font-size:115%;
+	margin-bottom:5px;
+}
+h1::first-letter{
+    font-size:250%;
+    color: 000000;
+}
+#main{
+	font-size:140%;
+}
+img{
+	margin:15px 0px 10px 10px;
+	float:left;
+}
+#title{
+     text-indent:10px;
+	 font-size:245%;
+	 height:15px;
+	 margin-top:0px;
+	 padding-top:10px;
+	 
+	}
+#subtitle{
+	text-indent:10px;
+	font-size:130%;
+    margin-top:10px;
+
+}
+a{
+	font-weight:bold;
+	color:orange;
+	display:inline-block;
+	padding:2px 0px 2px 0px;
+}
+
+a:hover{
+	
+	color:green;
+}
+footer{
+	font-size:100%;
+	text-align:center;
+	border-top-style:solid;
+	height:50px;
+	background:linear-gradient(45deg,black,orange 25%,white);
+}
